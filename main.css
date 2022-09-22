@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333232;
+  color: #CEB7B3;
+}
+body .footer {
+  margin: 10px;
+  text-align: center;
+}
+body .footer img {
+  width: 30px;
+  height: 30px;
+}
+body .footer .footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .footer .footer__links a {
+  margin: 5px;
+}
+body nav {
+  background-color: #F7B2AD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 4rem;
+  padding: 10px;
+}
+body nav .logo {
+  font-size: 3rem;
+  color: #333232;
+}
+body nav .navbar__links {
+  display: none;
+}
+body nav .navbar__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+body main {
+  margin: 10px;
+  border: 2px;
+}
+body main h1 {
+  font-size: 2rem;
+}
+body main .main__intro {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+body main .main__intro h1, body main .main__intro p {
+  padding-bottom: 20px;
+}
+body main .main__skills {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+body main .main__aboutme {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+body main .main__aboutme .aboutme__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .main__aboutme .aboutme__container p, body main .main__aboutme .aboutme__container img {
+  padding: 5px;
+}
+body main .main__projects {
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body main .project__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body main .projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .projects h2 {
+  font-size: 15px;
+  text-align: center;
+}
+body main .projects .eachproject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .projects .eachproject .project__picture {
+  width: 90px;
+  height: 60px;
+}
+body main .projects .eachproject .project__icons {
+  display: flex;
+}
+body main .projects .eachproject .project__icons h3 {
+  font-size: 7px;
+  margin: 5px;
+  border: 1px solid #CEB7B3;
+}/*# sourceMappingURL=main.css.map */
