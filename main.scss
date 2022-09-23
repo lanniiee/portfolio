@@ -5,12 +5,10 @@ $secondary-color: #CEB7B3;
 $third-color: #B7B7B7;
 $forth-color: #9ABCA7;
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 15px;
     color: $third-color;
 }
 
@@ -26,31 +24,21 @@ body {
             width: 30px;
             height: 30px;
         }
-        .footer__links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            a {
-                margin: 5px;
-            }
-        }
     }
     nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
         width: auto;
         height: 4rem;
-        padding: 14px;
+        padding: 10px;
+        margin-bottom: 60px;
         .logo {
-            font-size: 2.5rem;
+            font-size: 3rem;
             color: $primary-color;
         }
         .logo__firstname {
             color: $primary-color
-        }
-        .navbar__links {
-            display: none;
         }
         .navbar__icon {
             width: 30px;
@@ -61,11 +49,8 @@ body {
     main {
         margin: 10px;
         border: 2px;
-        h1 {
-            font-size: 2.2rem;
-        }
         .main__intro {
-            margin-bottom: 10px;
+            margin-bottom: 60px;
             padding: 5px;
             .h1__nopadding {
                 padding-bottom: 0;
@@ -83,21 +68,27 @@ body {
             }
         }
         .main__skills {
-            margin-bottom: 10px;
-            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
             padding: 5px;
             ul {
                 margin: 10px;
             }
         }
         .main__aboutme {
-            margin-bottom: 10px;
-            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
             padding: 5px;
             .aboutme__container {
-                p, img {
+                .image {
+                    display: flex;
+                    justify-content: center;
+                }
+                img {
                     padding: 5px;
-                    width: 360px;
+                    max-width: 358px;
+                    max-height: auto;
+                    width: 90vw;
                     height: auto;
                 }
                 p {
@@ -108,12 +99,11 @@ body {
         .main__projects {
             padding: 5px;
             text-align: left;
-            margin-bottom: 10px;
-            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
             }
             .projects {
                 h2 {
-                font-size: 20px;
                 text-align: left;  
                 color: $primary-color;
                 }
@@ -133,7 +123,6 @@ body {
                 display: flex;
                 justify-content: left;
                 h3 {
-                    font-size: 10px;
                     margin: 5px;
                     border: 1px solid $secondary-color;
                 }
@@ -163,3 +152,52 @@ body {
             width: 50px;
             margin-bottom: 20px;
         }
+
+@media only screen and (min-width: 391px) {
+    * {
+        font-size: 1.1rem;
+    }
+    .navbar__icon {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+    .aboutme__container {
+            display: flex;
+            justify-content: baseline;
+    }
+    .projects {
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        .project__name {
+            font-size: 2rem;
+        }
+        .project__icons {
+            font-size: 1.5rem;
+        }
+    }
+    .eachproject {
+        margin: 10px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .navbar__links {
+        display: none;
+    }
+    * {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
