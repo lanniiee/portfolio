@@ -1,4 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media only screen and (min-width: 391px) {
+  * {
+    font-size: 1rem;
+  }
+  .navbar__icon {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  .aboutme__container {
+    display: flex;
+    justify-content: baseline;
+  }
+  .projects {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .projects .project__name {
+    font-size: 2rem;
+  }
+  .projects .project__icons {
+    font-size: 1.5rem;
+  }
+  .eachproject {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .logo {
+    font-size: 4rem;
+  }
+  .intro__job {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .navbar__links {
+    display: none;
+  }
+  * {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 2.8rem;
+  }
+  .intro__job {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  * {
+    font-size: 1.15rem;
+  }
+  .navbar__icon {
+    display: none;
+  }
+  body {
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  .aboutme__container {
+    display: flex;
+    justify-content: baseline;
+  }
+  .projects {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .projects .project__name {
+    font-size: 2rem;
+  }
+  .projects .project__icons {
+    font-size: 1.5rem;
+  }
+  .eachproject {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+  .intro__job {
+    font-size: 4rem;
+  }
+  h {
+    font-size: 18px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -154,121 +270,4 @@ body main .projects .eachproject .project__icons h3 {
   border-bottom: 2px solid #fca311;
   width: 50px;
   margin-bottom: 20px;
-}
-
-@media only screen and (min-width: 391px) {
-  * {
-    font-size: 1rem;
-  }
-  .navbar__icon {
-    display: none;
-  }
-  a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: 20px;
-  }
-  .aboutme__container {
-    display: flex;
-    justify-content: baseline;
-  }
-  .projects {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-  }
-  .projects .project__name {
-    font-size: 2rem;
-  }
-  .projects .project__icons {
-    font-size: 1.5rem;
-  }
-  .eachproject {
-    margin: 10px;
-  }
-  h1 {
-    font-size: 2.5rem;
-  }
-  .logo {
-    font-size: 4rem;
-  }
-  .intro__job {
-    font-size: 3.5rem;
-  }
-  h3 {
-    font-size: 15px;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .navbar__links {
-    display: none;
-  }
-  * {
-    font-size: 13px;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  .logo {
-    font-size: 2.8rem;
-  }
-  .intro__job {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 10px;
-  }
-}
-@media only screen and (min-width: 820px) {
-  * {
-    font-size: 1.15rem;
-  }
-  .navbar__icon {
-    display: none;
-  }
-  body {
-    padding: 10px;
-  }
-  a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: 20px;
-  }
-  .aboutme__container {
-    display: flex;
-    justify-content: baseline;
-  }
-  .projects {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-  }
-  .projects .project__name {
-    font-size: 2rem;
-  }
-  .projects .project__icons {
-    font-size: 1.5rem;
-  }
-  .eachproject {
-    margin: 10px;
-  }
-  h1 {
-    font-size: 2.3rem;
-  }
-  .logo {
-    font-size: 3rem;
-  }
-  .intro__job {
-    font-size: 4rem;
-  }
-  h {
-    font-size: 18px;
-  }
 }/*# sourceMappingURL=main.css.map */
