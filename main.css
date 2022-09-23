@@ -213,6 +213,7 @@ body main .skill {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #56494C;
+  padding: 5px;
 }
 body main .skill p {
   width: 75%;
