@@ -4,11 +4,14 @@ $primary-color: #F7B2AD;
 $secondary-color: #CEB7B3;
 $third-color: #B7B7B7;
 $forth-color: #9ABCA7;
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: $background-color;
     color: $secondary-color;
@@ -61,13 +64,19 @@ body {
             h1, p {
                 padding-bottom: 20px;
             }
-
             p {
                 text-align: justify;
             }
         }
         .main__skills {
             margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .main__aboutme {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 5px;
             .aboutme__container {
                 p, img {
                     padding: 5px;
@@ -114,5 +123,7 @@ body {
                     border: 1px solid $secondary-color;
                 }
             }
+            }
+            }            
+            }
         }
-    }
