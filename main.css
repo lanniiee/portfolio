@@ -25,7 +25,7 @@ body .footer .footer__links a {
   margin: 5px;
 }
 body nav {
-  background-color: #F7B2AD;
+  background-color: #56494C;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,8 +34,8 @@ body nav {
   padding: 10px;
 }
 body nav .logo {
-  font-size: 3rem;
-  color: #333232;
+  font-size: 2.5rem;
+  color: #CEB7B3;
 }
 body nav .navbar__links {
   display: none;
@@ -69,11 +69,6 @@ body main .main__aboutme {
   margin-top: 10px;
   padding: 5px;
 }
-body main .main__aboutme .aboutme__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 body main .main__aboutme .aboutme__container p, body main .main__aboutme .aboutme__container img {
   padding: 5px;
 }
@@ -84,29 +79,22 @@ body main .main__projects {
   margin-top: 10px;
 }
 body main .project__label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 10px;
-}
-body main .projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 body main .projects h2 {
   font-size: 15px;
-  text-align: center;
+  text-align: left;
 }
 body main .projects .eachproject {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 body main .projects .eachproject .project__picture {
-  width: 90px;
-  height: 60px;
+  width: 360px;
+  height: 200px;
+  background-color: #56494C;
 }
 body main .projects .eachproject .project__icons {
   display: flex;
