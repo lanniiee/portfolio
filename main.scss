@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 $background-color: #14213d;
 $navbackground-color: #56494C;
 $primary-color: #fca311;
 $secondary-color: #CEB7B3;
 $third-color: #B7B7B7;
 $forth-color: #9ABCA7;
+$primary-font: "Barlow Condensed", "sans-serif", Arial;
+$secondary-font: "Montserrat", Arial; 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: $third-color;
+    font-family: $secondary-font;
 }
 
 body {
@@ -18,8 +22,8 @@ body {
     .footer {
         margin: 10px;
         text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         img {
             width: 30px;
             height: 30px;
@@ -32,7 +36,7 @@ body {
         width: auto;
         height: auto;
         padding: 10px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         .logo {
             color: $primary-color;
         }
@@ -49,7 +53,7 @@ body {
         margin: 10px;
         border: 2px;
         .main__intro {
-            margin-bottom: 60px;
+            margin-bottom: 50px;
             padding: 5px;
             .h1__nopadding {
                 padding-bottom: 0;
@@ -124,7 +128,7 @@ body {
                 margin-bottom: 20px;
                 .project__picture {
                 margin-bottom: 10px;
-                width: 360px;
+                width: 350px;
                 height: 200px;
                 background-color: $navbackground-color
                 }          
@@ -164,7 +168,7 @@ body {
 
 @media only screen and (min-width: 391px) {
     * {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .navbar__icon {
         display: none;
@@ -203,6 +207,9 @@ body {
     .intro__job {
         font-size: 3.5rem;
     }
+    h3 {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 390px) {
@@ -221,18 +228,27 @@ body {
     .intro__job {
         font-size: 3rem;
     }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width: 820px) {
     * {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
     .navbar__icon {
         display: none;
     }
+    body {
+        padding: 10px;
+    }
     a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-left: 20px;
     }
     .aboutme__container {
@@ -256,12 +272,15 @@ body {
         margin: 10px;
     }
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .logo {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
     .intro__job {
         font-size: 4rem;
+    }
+    h {
+        font-size: 18px;
     }
 }
