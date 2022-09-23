@@ -66,11 +66,18 @@ body main .main__skills {
   margin-top: 30px;
   padding: 5px;
 }
-body main .main__skills ul {
-  margin: 10px;
+body main .skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #56494C;
 }
-body main .main__skills ul li {
-  border: 1px solid #B7B7B7;
+body main .skill p {
+  width: 75%;
+}
+body main .skill img {
+  width: 20px;
+  height: auto;
 }
 body main .main__aboutme {
   margin-bottom: 30px;
@@ -194,12 +201,57 @@ body main .projects .eachproject .project__icons h3 {
     display: none;
   }
   * {
-    font-size: 15px;
+    font-size: 13px;
   }
   h1 {
     font-size: 2rem;
   }
   .logo {
     font-size: 2.8rem;
+  }
+  .intro__job {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 820px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .navbar__icon {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+  .aboutme__container {
+    display: flex;
+    justify-content: baseline;
+  }
+  .projects {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .projects .project__name {
+    font-size: 2rem;
+  }
+  .projects .project__icons {
+    font-size: 1.5rem;
+  }
+  .eachproject {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .logo {
+    font-size: 4.5rem;
+  }
+  .intro__job {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=main.css.map */

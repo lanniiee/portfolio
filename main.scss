@@ -70,11 +70,20 @@ body {
             margin-bottom: 30px;
             margin-top: 30px;
             padding: 5px;
+            }
             .skill {
-                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 2px solid $navbackground-color;
+                p {
+                    width: 75%;
+                }
+                img {
+                    width: 20px;
+                    height: auto;
+                }
             }
-            }
-        }
         .main__aboutme {
             margin-bottom: 30px;
             margin-top: 30px;
@@ -201,12 +210,58 @@ body {
         display: none;
     }
     * {
-        font-size: 15px;
+        font-size: 13px;
     }
     h1 {
         font-size: 2rem;
     }
     .logo {
         font-size: 2.8rem;
+    }
+    .intro__job {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    * {
+        font-size: 1.2rem;
+    }
+    .navbar__icon {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    .aboutme__container {
+            display: flex;
+            justify-content: baseline;
+    }
+    .projects {
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        .project__name {
+            font-size: 2rem;
+        }
+        .project__icons {
+            font-size: 1.5rem;
+        }
+    }
+    .eachproject {
+        margin: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .logo {
+        font-size: 4.5rem;
+    }
+    .intro__job {
+        font-size: 4rem;
     }
 }
