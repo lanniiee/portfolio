@@ -99,16 +99,19 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: left;
-                align-items: left;  
+                align-items: left;
+                margin-bottom: 20px;
                 .project__picture {
+                margin-bottom: 10px;
                 width: 360px;
                 height: 200px;
                 background-color: $navbackground-color
                 }          
                 .project__icons {
                 display: flex;
+                justify-content: left;
                 h3 {
-                    font-size: 7px;
+                    font-size: 10px;
                     margin: 5px;
                     border: 1px solid $secondary-color;
                 }

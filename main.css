@@ -90,17 +90,20 @@ body main .projects .eachproject {
   flex-direction: column;
   justify-content: left;
   align-items: left;
+  margin-bottom: 20px;
 }
 body main .projects .eachproject .project__picture {
+  margin-bottom: 10px;
   width: 360px;
   height: 200px;
   background-color: #56494C;
 }
 body main .projects .eachproject .project__icons {
   display: flex;
+  justify-content: left;
 }
 body main .projects .eachproject .project__icons h3 {
-  font-size: 7px;
+  font-size: 10px;
   margin: 5px;
   border: 1px solid #CEB7B3;
 }/*# sourceMappingURL=main.css.map */
