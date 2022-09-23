@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1rem;
+  color: #B7B7B7;
 }
 
 body {
-  background-color: #333232;
+  background-color: #14213d;
   color: #CEB7B3;
 }
 body .footer {
@@ -25,17 +27,19 @@ body .footer .footer__links a {
   margin: 5px;
 }
 body nav {
-  background-color: #56494C;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
-  height: 4rem;
+  height: 6rem;
   padding: 10px;
 }
 body nav .logo {
-  font-size: 2.5rem;
-  color: #CEB7B3;
+  font-size: 3rem;
+  color: #fca311;
+}
+body nav .logo__firstname {
+  color: #B7B7B7;
 }
 body nav .navbar__links {
   display: none;
@@ -47,7 +51,7 @@ body nav .navbar__icon {
 }
 body main {
   margin: 10px;
-  border: 2px;
+  padding-bottom: 10px;
 }
 body main h1 {
   font-size: 2rem;
@@ -56,20 +60,35 @@ body main .main__intro {
   margin-bottom: 10px;
   padding: 5px;
 }
+body main .main__intro .intro__seperate {
+  display: flex;
+  flex-direction: column;
+}
 body main .main__intro h1, body main .main__intro p {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 body main .main__intro p {
   text-align: justify;
 }
+body main .main__intro h1 {
+  font-size: 2.5rem;
+}
+body main .main__intro button {
+  background-color: #fca311;
+  color: #14213d;
+}
 body main .main__skills {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 5px;
 }
+body main .main__skills li {
+  text-align: justify;
+  margin: 20px;
+}
 body main .main__aboutme {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 5px;
 }
 body main .main__aboutme .aboutme__container p, body main .main__aboutme .aboutme__container img {
@@ -83,11 +102,8 @@ body main .main__aboutme .aboutme__container p {
 body main .main__projects {
   padding: 5px;
   text-align: left;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-body main .project__label {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 body main .projects h2 {
   font-size: 15px;
@@ -111,7 +127,25 @@ body main .projects .eachproject .project__icons {
   justify-content: left;
 }
 body main .projects .eachproject .project__icons h3 {
-  font-size: 10px;
+  font-size: 12px;
   margin: 5px;
   border: 1px solid #CEB7B3;
+}
+
+.divider__small {
+  border-bottom: 2px solid #fca311;
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.divider__medium {
+  border-bottom: 2px solid #fca311;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.divider__smaller {
+  border-bottom: 2px solid #fca311;
+  width: 150px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
