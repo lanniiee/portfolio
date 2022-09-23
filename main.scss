@@ -64,7 +64,9 @@ body {
             h1, p {
                 padding-bottom: 20px;
             }
-
+            p {
+                text-align: justify;
+            }
         }
         .main__skills {
             margin-bottom: 10px;
@@ -78,6 +80,11 @@ body {
             .aboutme__container {
                 p, img {
                     padding: 5px;
+                    width: 360px;
+                    height: auto;
+                }
+                p {
+                    text-align: justify;
                 }
             }
         }
