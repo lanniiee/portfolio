@@ -1,6 +1,6 @@
-$background-color: #333232;
+$background-color: #14213d;
 $navbackground-color: #56494C;
-$primary-color: #F7B2AD;
+$primary-color: #fca311;
 $secondary-color: #CEB7B3;
 $third-color: #B7B7B7;
 $forth-color: #9ABCA7;
@@ -32,7 +32,6 @@ body {
         }
     }
     nav {
-        background-color: $navbackground-color;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -42,6 +41,9 @@ body {
         .logo {
             font-size: 2.5rem;
             color: $secondary-color;
+        }
+        .logo__firstname {
+            color: $primary-color
         }
         .navbar__links {
             display: none;
@@ -126,4 +128,20 @@ body {
             }
             }            
             }
+        }
+
+        .divider__small {
+            border-bottom: 2px solid #fca311;
+            width: 170px;
+            margin-bottom: 20px;
+        }     
+        .divider__medium {
+            border-bottom: 2px solid #fca311;
+            width: 220px;
+            margin-bottom: 20px;
+        }
+        .divider__smaller {
+            border-bottom: 2px solid #fca311;
+            width: 150px;
+            margin-bottom: 20px;
         }

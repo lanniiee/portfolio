@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #333232;
+  background-color: #14213d;
   color: #CEB7B3;
 }
 body .footer {
@@ -25,7 +25,6 @@ body .footer .footer__links a {
   margin: 5px;
 }
 body nav {
-  background-color: #56494C;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +35,9 @@ body nav {
 body nav .logo {
   font-size: 2.5rem;
   color: #CEB7B3;
+}
+body nav .logo__firstname {
+  color: #fca311;
 }
 body nav .navbar__links {
   display: none;
@@ -114,4 +116,22 @@ body main .projects .eachproject .project__icons h3 {
   font-size: 10px;
   margin: 5px;
   border: 1px solid #CEB7B3;
+}
+
+.divider__small {
+  border-bottom: 2px solid #fca311;
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.divider__medium {
+  border-bottom: 2px solid #fca311;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.divider__smaller {
+  border-bottom: 2px solid #fca311;
+  width: 150px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
