@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 15px;
+  color: #B7B7B7;
 }
 
 body {
@@ -34,7 +36,7 @@ body nav {
 }
 body nav .logo {
   font-size: 2.5rem;
-  color: #CEB7B3;
+  color: #B7B7B7;
 }
 body nav .logo__firstname {
   color: #fca311;
@@ -52,22 +54,33 @@ body main {
   border: 2px;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 body main .main__intro {
   margin-bottom: 10px;
   padding: 5px;
 }
-body main .main__intro h1, body main .main__intro p {
-  padding-bottom: 20px;
+body main .main__intro .h1__nopadding {
+  padding-bottom: 0;
 }
 body main .main__intro p {
   text-align: justify;
+  padding-bottom: 20px;
+}
+body main .main__intro h1 {
+  padding-bottom: 30px;
+}
+body main .main__intro button {
+  color: #14213d;
+  background-color: #fca311;
 }
 body main .main__skills {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 5px;
+}
+body main .main__skills ul {
+  margin: 10px;
 }
 body main .main__aboutme {
   margin-bottom: 10px;
@@ -92,8 +105,9 @@ body main .project__label {
   margin-bottom: 10px;
 }
 body main .projects h2 {
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
+  color: #fca311;
 }
 body main .projects .eachproject {
   display: flex;
@@ -133,5 +147,11 @@ body main .projects .eachproject .project__icons h3 {
 .divider__smaller {
   border-bottom: 2px solid #fca311;
   width: 150px;
+  margin-bottom: 20px;
+}
+
+.divider__smallest {
+  border-bottom: 2px solid #fca311;
+  width: 50px;
   margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
