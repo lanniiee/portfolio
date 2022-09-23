@@ -30,11 +30,10 @@ body {
         justify-content: space-between;
         align-items: baseline;
         width: auto;
-        height: 4rem;
+        height: auto;
         padding: 10px;
         margin-bottom: 60px;
         .logo {
-            font-size: 3rem;
             color: $primary-color;
         }
         .logo__firstname {
@@ -186,7 +185,13 @@ body {
         margin: 10px;
     }
     h1 {
+        font-size: 2.5rem;
+    }
+    .logo {
         font-size: 4rem;
+    }
+    .intro__job {
+        font-size: 3.5rem;
     }
 }
 
@@ -198,6 +203,9 @@ body {
         font-size: 15px;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    .logo {
+        font-size: 2.8rem;
     }
 }

@@ -24,12 +24,11 @@ body nav {
   justify-content: space-between;
   align-items: baseline;
   width: auto;
-  height: 4rem;
+  height: auto;
   padding: 10px;
   margin-bottom: 60px;
 }
 body nav .logo {
-  font-size: 3rem;
   color: #fca311;
 }
 body nav .logo__firstname {
@@ -178,7 +177,13 @@ body main .projects .eachproject .project__icons h3 {
     margin: 10px;
   }
   h1 {
+    font-size: 2.5rem;
+  }
+  .logo {
     font-size: 4rem;
+  }
+  .intro__job {
+    font-size: 3.5rem;
   }
 }
 @media only screen and (max-width: 390px) {
@@ -189,6 +194,9 @@ body main .projects .eachproject .project__icons h3 {
     font-size: 15px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 2.8rem;
   }
 }/*# sourceMappingURL=main.css.map */
