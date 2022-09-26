@@ -22,7 +22,6 @@ body {
             width: 30px;
             height: 30px;
         }
-    }
     nav {
         display: flex;
         justify-content: space-between;
@@ -102,6 +101,15 @@ body {
                 p {
                     text-align: justify;
                 }
+                .aboutme__content {
+                    border-bottom: 2px solid $navbackground-color;
+                    padding: 5px;
+                    h2 {
+                        margin-bottom: 10px;
+                        text-decoration: underline;
+                        color: $primary-color;
+                    }
+                }
             }
         }
         .main__projects {
@@ -114,6 +122,7 @@ body {
                 h2 {
                 text-align: left;  
                 color: $primary-color;
+                text-decoration: underline;
                 }
                 .eachproject {
                 display: flex;

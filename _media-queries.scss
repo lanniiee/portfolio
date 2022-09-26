@@ -1,58 +1,9 @@
-@media only screen and (min-width: 391px) {
-    * {
-        font-size: 15px;
-    }
-    .navbar__icon {
-        display: none;
-    }
-    a {
-        text-decoration: none;
-        font-size: 1.2rem;
-        margin-left: 20px;
-    }
-    .aboutme__container {
-            display: flex;
-            justify-content: baseline;
-    }
-    .projects {
-        display: flex;
-        justify-content:baseline;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 0;
-        .project__name {
-            font-size: 1.2rem;
-        }
-        .project__icons {
-            font-size: 1.5rem;
-        }
-    }
-    .eachproject {
-        margin: 10px;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    .logo {
-        font-size: 4rem;
-    }
-    .intro__job {
-        font-size: 3.5rem;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    h2 {
-        font-size: 1.2rem;
-    }
-}
-
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 459px) {
     .navbar__links {
         display: none;
     }
     * {
-        font-size: 15px;
+        font-size: 12px;
     }
     h1 {
         font-size: 2rem;
@@ -64,22 +15,70 @@
         font-size: 3rem;
     }
     h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     h3 {
         font-size: 10px;
     }
 }
 
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 460px) {
     * {
-        font-size: 1.15rem;
+        font-size: 13px;
+    }
+    main {
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .navbar__icon {
         display: none;
     }
-    body {
-        padding: 10px;
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+    .projects {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin: 0;
+        .project__name {
+            font-size: 1.1rem;
+        }
+        .project__icons {
+            font-size: 1.5rem;
+        }
+    }
+    .eachproject {
+        margin: 10px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    .logo {
+        font-size: 2.7rem;
+    }
+    .intro__job {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    * {
+        font-size: 1rem;
+    }
+    main {
+        padding-left: 80px;
+        padding-right: 80px;
     }
     a {
         text-decoration: none;
@@ -88,7 +87,7 @@
     }
     .aboutme__container {
             display: flex;
-            justify-content: baseline;
+            justify-content: center;
     }
     .projects {
         display: flex;
@@ -107,12 +106,15 @@
         margin: 10px;
     }
     h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     .logo {
         font-size: 3.1rem;
     }
     .intro__job {
         font-size: 2.9rem;
+    }
+    h2 {
+        font-size: 1.3rem;
     }
 }
