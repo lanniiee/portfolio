@@ -162,11 +162,7 @@ body .footer img {
   width: 30px;
   height: 30px;
 }
-body .navbar {
-  position: fixed;
-  width: 100%;
-}
-body nav {
+body .footer nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -175,115 +171,115 @@ body nav {
   padding: 10px;
   margin-bottom: 30px;
 }
-body nav .logo {
+body .footer nav .logo {
   color: #fca311;
 }
-body nav .logo__firstname {
+body .footer nav .logo__firstname {
   color: #fca311;
 }
-body nav .navbar__icon {
+body .footer nav .navbar__icon {
   width: 30px;
   height: 30px;
   margin-right: 5px;
 }
-body main {
+body .footer main {
   margin: 10px;
   border: 2px;
 }
-body main .main__intro {
+body .footer main .main__intro {
   margin-bottom: 50px;
   padding: 5px;
 }
-body main .main__intro .h1__nopadding {
+body .footer main .main__intro .h1__nopadding {
   padding-bottom: 0;
 }
-body main .main__intro p {
+body .footer main .main__intro p {
   text-align: justify;
   padding-bottom: 20px;
 }
-body main .main__intro h1 {
+body .footer main .main__intro h1 {
   padding-bottom: 30px;
 }
-body main .main__intro button {
+body .footer main .main__intro button {
   color: #14213d;
   background-color: #fca311;
 }
-body main .main__skills {
+body .footer main .main__skills {
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 5px;
 }
-body main .skill {
+body .footer main .skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #56494C;
   padding: 5px;
 }
-body main .skill p {
+body .footer main .skill p {
   width: 75%;
 }
-body main .skill img {
+body .footer main .skill img {
   width: 17px;
   height: auto;
 }
-body main .main__aboutme {
+body .footer main .main__aboutme {
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 5px;
 }
-body main .main__aboutme .aboutme__container .image {
+body .footer main .main__aboutme .aboutme__container .image {
   display: flex;
   justify-content: center;
 }
-body main .main__aboutme .aboutme__container img {
+body .footer main .main__aboutme .aboutme__container img {
   padding: 5px;
   max-width: 358px;
   max-height: 474px;
   width: 90vw;
   height: auto;
 }
-body main .main__aboutme .aboutme__container p {
+body .footer main .main__aboutme .aboutme__container p {
   text-align: justify;
 }
-body main .main__aboutme .aboutme__container .aboutme__content {
+body .footer main .main__aboutme .aboutme__container .aboutme__content {
   border-bottom: 2px solid #56494C;
   padding: 5px;
 }
-body main .main__aboutme .aboutme__container .aboutme__content h2 {
+body .footer main .main__aboutme .aboutme__container .aboutme__content h2 {
   margin-bottom: 10px;
   text-decoration: underline;
   color: #fca311;
 }
-body main .main__projects {
+body .footer main .main__projects {
   padding: 5px;
   text-align: left;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-body main .projects h2 {
+body .footer main .projects h2 {
   text-align: left;
   color: #fca311;
   text-decoration: underline;
 }
-body main .projects .eachproject {
+body .footer main .projects .eachproject {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   margin-bottom: 20px;
 }
-body main .projects .eachproject .project__picture {
+body .footer main .projects .eachproject .project__picture {
   margin-bottom: 10px;
   width: 350px;
   height: 200px;
   background-color: #56494C;
 }
-body main .projects .eachproject .project__icons {
+body .footer main .projects .eachproject .project__icons {
   display: flex;
   justify-content: left;
 }
-body main .projects .eachproject .project__icons h3 {
+body .footer main .projects .eachproject .project__icons h3 {
   margin: 5px;
   border: 1px solid #CEB7B3;
 }/*# sourceMappingURL=main.css.map */
