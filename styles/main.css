@@ -200,10 +200,6 @@ body main .main__intro p {
 body main .main__intro h1 {
   padding-bottom: 30px;
 }
-body main .main__intro button {
-  color: #14213d;
-  background-color: #fca311;
-}
 body main .main__skills {
   margin-bottom: 30px;
   margin-top: 30px;
