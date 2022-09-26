@@ -1,6 +1,6 @@
-@use "/styles/dividers" as *;
-@use "/styles/media-queries" as *;
-@use "/styles/variables" as *;
+@use "_variables.scss" as *;
+@use "_media-queries.scss" as *;
+@use "_dividers.scss" as *;
 
 * {
     margin: 0;
@@ -31,6 +31,9 @@ body {
         height: auto;
         padding: 10px;
         margin-bottom: 30px;
+        position: fixed;
+        bottom:
+
         .logo {
             color: $primary-color;
         }
