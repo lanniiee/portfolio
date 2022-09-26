@@ -162,7 +162,7 @@ body .footer img {
   width: 30px;
   height: 30px;
 }
-body .footer nav {
+body nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -171,115 +171,115 @@ body .footer nav {
   padding: 10px;
   margin-bottom: 30px;
 }
-body .footer nav .logo {
+body nav .logo {
   color: #fca311;
 }
-body .footer nav .logo__firstname {
+body nav .logo__firstname {
   color: #fca311;
 }
-body .footer nav .navbar__icon {
+body nav .navbar__icon {
   width: 30px;
   height: 30px;
   margin-right: 5px;
 }
-body .footer main {
+body main {
   margin: 10px;
   border: 2px;
 }
-body .footer main .main__intro {
+body main .main__intro {
   margin-bottom: 50px;
   padding: 5px;
 }
-body .footer main .main__intro .h1__nopadding {
+body main .main__intro .h1__nopadding {
   padding-bottom: 0;
 }
-body .footer main .main__intro p {
+body main .main__intro p {
   text-align: justify;
   padding-bottom: 20px;
 }
-body .footer main .main__intro h1 {
+body main .main__intro h1 {
   padding-bottom: 30px;
 }
-body .footer main .main__intro button {
+body main .main__intro button {
   color: #14213d;
   background-color: #fca311;
 }
-body .footer main .main__skills {
+body main .main__skills {
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 5px;
 }
-body .footer main .skill {
+body main .skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #56494C;
   padding: 5px;
 }
-body .footer main .skill p {
+body main .skill p {
   width: 75%;
 }
-body .footer main .skill img {
+body main .skill img {
   width: 17px;
   height: auto;
 }
-body .footer main .main__aboutme {
+body main .main__aboutme {
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 5px;
 }
-body .footer main .main__aboutme .aboutme__container .image {
+body main .main__aboutme .aboutme__container .image {
   display: flex;
   justify-content: center;
 }
-body .footer main .main__aboutme .aboutme__container img {
+body main .main__aboutme .aboutme__container img {
   padding: 5px;
   max-width: 358px;
   max-height: 474px;
   width: 90vw;
   height: auto;
 }
-body .footer main .main__aboutme .aboutme__container p {
+body main .main__aboutme .aboutme__container p {
   text-align: justify;
 }
-body .footer main .main__aboutme .aboutme__container .aboutme__content {
+body main .main__aboutme .aboutme__container .aboutme__content {
   border-bottom: 2px solid #56494C;
   padding: 5px;
 }
-body .footer main .main__aboutme .aboutme__container .aboutme__content h2 {
+body main .main__aboutme .aboutme__container .aboutme__content h2 {
   margin-bottom: 10px;
   text-decoration: underline;
   color: #fca311;
 }
-body .footer main .main__projects {
+body main .main__projects {
   padding: 5px;
   text-align: left;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-body .footer main .projects h2 {
+body main .projects h2 {
   text-align: left;
   color: #fca311;
   text-decoration: underline;
 }
-body .footer main .projects .eachproject {
+body main .projects .eachproject {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   margin-bottom: 20px;
 }
-body .footer main .projects .eachproject .project__picture {
+body main .projects .eachproject .project__picture {
   margin-bottom: 10px;
   width: 350px;
   height: 200px;
   background-color: #56494C;
 }
-body .footer main .projects .eachproject .project__icons {
+body main .projects .eachproject .project__icons {
   display: flex;
   justify-content: left;
 }
-body .footer main .projects .eachproject .project__icons h3 {
+body main .projects .eachproject .project__icons h3 {
   margin: 5px;
   border: 1px solid #CEB7B3;
 }/*# sourceMappingURL=main.css.map */
