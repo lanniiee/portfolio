@@ -1,7 +1,6 @@
 @use "_variables.scss" as *;
 @use "_media-queries.scss" as *;
 @use "_dividers.scss" as *;
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@
     color: $third-color;
     font-family: $secondary-font;
 }
-
 body {
     background-color: $background-color;
     color: $secondary-color;
@@ -31,9 +29,6 @@ body {
         height: auto;
         padding: 10px;
         margin-bottom: 30px;
-        position: fixed;
-        bottom:
-
         .logo {
             color: $primary-color;
         }
@@ -152,6 +147,4 @@ body {
             }            
             }
         }
-
-
 
