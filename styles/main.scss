@@ -93,8 +93,15 @@ body {
                     width: 90vw;
                     height: auto;
                 }
+                .aboutme__info {
+                    padding: 5px;
+                    max-width: 75vw;
+                    max-height: 474px;
+                    overflow-x: auto;
+                }
                 p {
                     text-align: justify;
+                    word-wrap: break-word;
                 }
                 .aboutme__content {
                     border-bottom: 2px solid $navbackground-color;
