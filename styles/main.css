@@ -272,11 +272,21 @@ body main .projects .eachproject {
   align-items: left;
   margin-bottom: 20px;
 }
+body main .projects .eachproject .project__picture:hover {
+  opacity: 0.5;
+}
 body main .projects .eachproject .project__picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 280px;
   background-color: #56494C;
+}
+body main .projects .eachproject .project__picture .project__image {
+  width: 200px;
+  height: auto;
 }
 body main .projects .eachproject .project__icons {
   display: flex;

@@ -122,21 +122,31 @@ body {
             }
             .projects {
                 h2 {
-                text-align: left;  
-                color: $primary-color;
-                text-decoration: underline;
+                    text-align: left;  
+                    color: $primary-color;
+                    text-decoration: underline;
                 }
                 .eachproject {
-                display: flex;
-                flex-direction: column;
-                justify-content: left;
-                align-items: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: left;
+                    align-items: left;
                 margin-bottom: 20px;
+                .project__picture:hover {
+                    opacity: 0.5;
+                }
                 .project__picture {
-                margin-bottom: 10px;
-                width: 350px;
-                height: 200px;
-                background-color: $navbackground-color
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    width: 400px;
+                    height: 280px;
+                    background-color: $navbackground-color;
+                    .project__image {
+                        width: 200px;
+                        height: auto;
+                    }
                 }          
                 .project__icons {
                 display: flex;
