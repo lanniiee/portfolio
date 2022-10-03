@@ -285,8 +285,9 @@ body main .projects .eachproject .project__picture {
   background-color: #56494C;
 }
 body main .projects .eachproject .project__picture .project__image {
-  width: 200px;
-  height: auto;
+  width: 370px;
+  height: 250px;
+  margin-right: 20px;
 }
 body main .projects .eachproject .project__icons {
   display: flex;
